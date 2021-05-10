@@ -1,0 +1,34 @@
+﻿@model IPagedList<Domain.Entities.AllBooksDto>
+
+<div>
+    <h3>Books</h3>
+    <hr />
+    <br />
+    <div class="wrapper">
+        @foreach (var item in Model)
+        {
+            <div class="book-item">
+                <img @if (item.ImagePath is null) { item.ImagePath = AppSettings.Instance.DefaultImage; } else { item.ImagePath = $"{AppSettings.Instance.ImagePatch}/{item.ImagePath}"; }
+                     src="@item.ImagePath" alt="@item.Title" />
+                <br />
+                <a href="Books/Details/@item.Id"><span class="book-title">@item.Title</span></a>
+            </div>
+        }
+    </div>
+</div>
+<br />
+<div>
+    @Html.PagedListPager(Model, page =>
+   Url.Action("Index",
+       new { page = page }),
+       new PagedListRenderOptions
+       {
+           LinkToPreviousPageFormat = "«",
+           LinkToNextPageFormat = "»",
+           ContainerDivClasses = new[] { "pagination-container" },
+           UlElementClasses = new[] { "pagination justify-content-center" },
+           DisplayEllipsesWhenNotShowingAllPageNumbers = false,
+           LiElementClasses = new string[] { "page-item" },
+           PageClasses = new string[] { "page-link" }
+       })
+</div>
