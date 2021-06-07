@@ -1,0 +1,36 @@
+          Single responsability principle
+Fiecare clasa trebuie sa faca job ul ei doar ei
+o clasa trebuie sa aiba un motiv de a fi schimbata 
+
+despartirea in clase
+ex logica in controllere
+functionant irelevant al clasei
+
+Open closed principle
+Deschisa pentru extinderi si inchisa pentru modificari
+modificam clasa atunci cand strb requerements uri noi 
+ex parametri fixi ex if  x == "tadada".. gresit
+
+
+LISKOV
+orice clasa copil trb sa trb sa fie folosite fara modificarea functionalul clasei parinte
+daca mostenim de la o clasa de baza pai il mostenim si nu il modificam
+baza test1 = new baza()
+baza test2 = new copilas()
+am adaugat interfata in care definim metodele ex de calul a ariei
+
+Interface segration principle
+interfate cu metode mai putine si grupate in sens logice, in general interfatii cu metode putine.
+ex atunci cand clasele implementeaza interfata, trb sa implementeze toate metodele ex si cele inutile.
+metodele din interfata trb sa fie legate de codul din interfata.  trb analizat codul 
+
+
+dependency inversion principle
+daca o clasa foloseste o alta clasa, clasa A are o logica dependenta de clasa B cu atat cunoaste clasa A  mai putin din B este mai bun pt noi si viitor
+ne ajuta sa facem un cod mai putin cuplat
+dependenta se face prin abstractie , ex facem o interfata care are doar o metoda 
+am separat functionalul claselor low level, es cel de printare. am decuplat functionalul de printare 
+-----------------
+task advanced 2
+clasa linked mosteneste account id si holder id respectiv obiectele din lista linkt account dar ele nu au nici o valoare, holder id se refera doar la clasa link, ce sa facem sa se lasam asa nu vor fi folosite, dar vor fi accesible.
+clasa account parinte

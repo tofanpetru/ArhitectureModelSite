@@ -1,0 +1,21 @@
+WEeb service,
+
+RETRIVE OR PROCESS/ SEND BACK DATA, 
+APi is a web service, is contains business logic and have acces to database,
+
+
+
+REST API IS ARHITECTURE BASED ON THE CLIENT AND SERVER
+
+tHE RESORCE can be acces by a url adress
+
+USE A UNIFORM INTERFACE(GET PUT POST DELETE) CONVENTION 
+
+XML AND JSON- RECIVE THE RESPONSE.
+
+
+ControllerBase - contine prea mult functional fiindca nu avem nevoie de view-uri la api-uri
+
+fiindca noi trb doar sa returnam un json 
+
+

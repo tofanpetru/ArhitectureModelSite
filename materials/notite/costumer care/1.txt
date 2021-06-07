@@ -1,0 +1,24 @@
+am - is about business and operations support, bug fixes, tehnical upgrades and miror enhancements.
+
+outsorcing - servicii mai ieftine,
+service desk- contact with client, support
+
+SLA- daca ceva nu merge la client, pai endava pierde bani, se face un contract si se specifica cat timp clientul va vedea proiectul
+prioritate > **p1(8 hours)**,p2,p3(5 days)
+
+who are costumers ??
+us,uk,germ. 20-55, can be managers, id background..
+
+PROCESSES
+incident manangement - documents problems or user dont know how work system
+change management - proces to productions - small bug fix etc
+problem management - find rute of problems. if are many problems with same route, is like a same problem
+
+metodologies
+kanban/scrum and daily stand-ups
+
+
+
+i can re direct this answer to my colegues, to help you
+
+anatolie, 

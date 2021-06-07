@@ -1,0 +1,31 @@
+
+
+https://tutexchange.com/creating-grid-view-in-asp-net-core-with-custom-sorting/
+--------------------------
+
+design
+{
+paginare
+https://www.youtube.com/watch?v=2YXhkdA3Ils
+
+}
+
+carti, 
+inchirierea cartii .
+Admin, user,
+
+Scope - avem un scop, cand lucram cu EF se adauga dbcontext, automat lifetime ul lui e scoped, nu trb de fiecare 
+
+transient - la fiecare call se creaza obiect
+
+singletone - cum s-a pornit , asa si se va sfarsi serviciul. creaza doar o instanta
+
+
+
+
+
+
+
+
+
+

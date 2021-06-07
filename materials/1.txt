@@ -1,0 +1,18 @@
+presentation -> infrastructure (entityframework cu contextul si modelele)
+
+
+Managers - logica
+
+De ce nu in models ? - 
+
+controllerul - este un fel de program care ruteaza ceva, fiindca el nu trb sa aiba logica, toata logica
+se va petrece in application layer
+
+Repo- insert
+
+Validarile in application
+
+
+te asiguri ca faci clean la solutie, rebuild, si ca tot e ok, si mergi in test, si faci unit testing uri.
+faci push pe developer 
+code first,

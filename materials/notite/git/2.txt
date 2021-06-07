@@ -1,0 +1,12 @@
+git merge- lipeste doua branch uri
+
+branch urile sunt linii independente de dezvoltatre
+
+git rebase -muta sau combina branch uri 
+Fisierele 
+ex ca sa fim up to date cu schimbarile care sunt pe master. cand facem rebase obtinem schimbarile de pe alt branch.
+ori o sa avem ori nu o sa avem conflicte.
+
+stash - daca nu am nev ca schimbarile astea sa fie salvate, le depozitez in area asta stash
+
+reduce dezordinea git commit amend, usor de analizat.

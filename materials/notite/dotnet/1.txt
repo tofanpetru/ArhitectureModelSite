@@ -1,0 +1,25 @@
+yield--dupa ce strange un raspuns, intoarce tot odata, adica nu returneaza cate unu pe rand
+
+
+enum - setarea listei de constante, dupa se verifica la enumerare . o lista de variabile permanente. reprezentat ca string in int.
+enum face switch ul mai norm. nu case 1,2,3 ca cod e mai citibil cand e in formatul dat.
+
+prima valoare trb sa fie unknown, daca uitam sa initializam sau primeste nul, va lua prima valoare si pe aia va pune o 
+structurile incapsuleaza date.
+
+unknow- nullable sau atunci cand o valoare e absenta sau in dependenta de context
+
+
+--------
+stack - VALUE
+
+
+Heap--HIP
+
+
+
+------------------
+
+Overloading- 
+
+arraylist- o lista de date diferite

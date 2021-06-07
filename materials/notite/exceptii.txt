@@ -1,0 +1,19 @@
+orice rezultat neasteptat in urma caruia se inchide aplicatia
+exceptii de memorie, 
+network errors calculation errors.
+
+try- expresia care se executa daca nu prinde exceptia.
+catch - prindem exceptia
+finaly - optional
+throw, se arata sau se returneaza
+
+in system exception sunt cele generale
+
+logging-ul putem face ca sa printeze erorile
+
+depidne cum il configurezi, se salveaza in fisier, bd sau azure in cloud
+Nlog, log4net.
+Microsoft.ExtensionsLogging
+
+
+performens logger o sa arate ora cand s a inceput si cand s a finisat  bug ul

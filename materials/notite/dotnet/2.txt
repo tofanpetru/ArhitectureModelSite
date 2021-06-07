@@ -1,0 +1,46 @@
+ interface - o clasa abstracta, unde toate metodele sunt abstracte. Putem mai multe interfete sa mostenim. Solid daca folosim interfete fiecare clasa si metodele ei trb sa folosim cat mai multe interfete
+
+* modificatori de acces :
++ public peste tot
++ protected doar in clasa baza si derivata
++ accesul este limitat doar intr un namespace
++ protected internal 
++ private doar in clasa de baza
+
+
+readonly- 
+
+
+*-----
+fara add acolo la mn trb de facut, 
+*----
+
+generics- allow you to write classes that have substituable type parametres
+
+Ex T.. list<tip T>
+
+
+
+-------------
+Colections
+Ienumerable T is an interface impremented by a generic collections
+- poate adauga sterge, de obicei se foloseste la afisare.
+List<T> a generic collection, like array but resizerable.
+
+Dictionary<k,v> is a list of key value pairs. Provides you with an efficient way to lookup and insert values by key.
+
+
+Delegates allow you to treat methods as objects and pass them to other metods or store them inside classes
+stringCombiner
+
+
+-----------
+atribute
+metadata can be attached to classes, class members and assemblies. these attributes then can be read via reflection
+
+---
+clasele seld, static si diferenta si cand trb de folosit
+interfete, dependency injection, SOLID, Naming conventions, clasele abstracte si mostenirea.
+
+
+

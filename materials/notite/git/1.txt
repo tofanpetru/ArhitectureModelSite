@@ -1,0 +1,33 @@
+Un instument pentru versionalizarea fisierelor.
+git workflow -arii -  working area, index, repository, stash
+
+facem schimbari, salvam schimbari, si in repo ajung salvate
+Working area, index, repo
+
+
+
+--------------------------------
+Odata ce schimbarea a fost facuta nu va mai fi modificata
+
+branch - o linie independenta de dezvoltare sau crestere a fisierelor noastre.
+
+task[denumirea-relase]
+push- din local in remote
+commit -index>repo
+
+-----------------
+add/commit/remote add origin/push
+
+
+
+gitignore-
+tracked- fisierele care au juns in index area sau repo, este tracked
+untraked - working area
+ignored - fisierele indicate in gitignore
+
+creare branch urilor.. git checkout numeBranch
+
+* daca adaugam cv pai nu schimbam tot fisierul, altfel ar fi un trafic prea mare.
+
+
+

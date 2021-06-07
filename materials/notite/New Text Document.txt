@@ -1,0 +1,1 @@
+IEnumerable<T>- mosteneste orice colectie, si putem folosi linq

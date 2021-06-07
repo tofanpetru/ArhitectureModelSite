@@ -1,0 +1,7 @@
+index ne ajuta la performanta bd , sql server indexul se salveaza sub forma de arbore,
+sunt de tip clusture si non clusture
+
+INDEX, 
+VERSION CONTROL FLYWAY
+
+TRIGGERS
